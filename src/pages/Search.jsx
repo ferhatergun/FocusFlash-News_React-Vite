@@ -39,7 +39,7 @@ export default function Search() {
             ))
             }      
         </div>
-        <Pagination count={news.totalResults > 500 ? 5 : ( news.totalResults > 100 ? (parseInt(news.totalResults)/100) : 1)} page={parseInt(params.page)} color="primary" onChange={(e,v)=>handlePage(v)}  className='w-full flex justify-center mt-8' />
+        <Pagination count={news.totalResults > 500 ? 5 : ( news.totalResults > 100 ? (parseInt(news.totalResults/100)) : 1)} page={parseInt(params.page)} color="primary" onChange={(e,v)=>handlePage(v)}  className='w-full flex justify-center mt-8' />
     </div>
   )
   else{
