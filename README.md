@@ -1,8 +1,27 @@
-# React + Vite
+# FocusFlash News
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Proje Özellikleri
 
-Currently, two official plugins are available:
+- Haberlerin Listelenmesi
+- İstenilen Kelimede Arama Yapma
+- Sayfalı Biçimde Haberlerin Listelenmesi
+- Ülkele Bazında Haberlerin Listelenmesi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Proje Görüntüleri
+### Ana Sayfa ( / )
+![alt text](https://github.com/ferhatergun/FocusFlash-News_React-Vite/blob/main/githubPhoto/home.PNG)
+### Kelimeye Göre Haber Listeleme ( /search/(aranılan kelime)/(sayfa sayısı 1,2..) )
+![alt text](https://github.com/ferhatergun/FocusFlash-News_React-Vite/blob/main/githubPhoto/search.PNG)
+### Haber Detay Sayfası ( /detail)
+![alt text](https://github.com/ferhatergun/FocusFlash-News_React-Vite/blob/main/githubPhoto/detail.PNG)
+
+## Projeyi Çalıştırma
+````
+git clone https://github.com/ferhatergun/FocusFlash-News_React-Vite.git
+
+cd FocusFlash-News_React-Vite
+
+npm install
+
+npm run dev
+````
